@@ -2,6 +2,7 @@
 MTG Manacurve simulations inspired by Frank Karsten
 
 I did some mana curve simulations and would like to share them in case others find it useful.
+https://docs.google.com/spreadsheets/d/1KNF2Mni1NNenwEKamN0EArrXEJ50AtkmvVTCVfRLNbg/edit#gid=0
 
 The simulations are inspired and are an extension of Frank Karsten's work:
 https://strategy.channelfireball.com/all-strategy/mtg/channelmagic-articles/frank-analysis-finding-the-optimal-mana-curve-via-computer-simulation/
