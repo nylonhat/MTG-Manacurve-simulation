@@ -35,4 +35,6 @@ In limited formats, you should always consider card quality before considering m
 
 
 **Compiling code:**
-```javac optimalmanacurve.java```
+```
+javac optimalmanacurve.java
+```
