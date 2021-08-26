@@ -32,3 +32,7 @@ Cards that ramp mana and draw additional cards aren’t considered in these simu
 Low cost combat tricks and removal spells that can’t be played as soon as possible for their casting cost are difficult to assign on the curve. It may be useful to think about the amount of mana value they generate, even if you don’t use all your mana when you play them.
 
 In limited formats, you should always consider card quality before considering mana curve. Only take mana curve into consideration when comparing cards of similar quality. (The same can be said for constructed formats)
+
+
+**Compiling code:**
+`javac optimalmanacurve.java`
