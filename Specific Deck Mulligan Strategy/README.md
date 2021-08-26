@@ -14,3 +14,9 @@ Where:
     1: Draw
     2: Random
 ```
+
+**File Generated:**
+```
+optimal_curve_specific_london.csv
+```
+Rename file after use.
