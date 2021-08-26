@@ -38,3 +38,15 @@ In limited formats, you should always consider card quality before considering m
 ```
 javac optimalmanacurve.java
 ```
+
+**Running code:**
+```
+Usage:
+  java optimalmanacurve.java <Deck size> <Land count> <Turn> <Order>
+
+Where:
+  Order: [0|1|2]
+    0: Play
+    1: Draw
+    2: Random
+```
