@@ -15,7 +15,7 @@ Where:
     2: Random
 ```
 
-**File Generated:**
+**File Generated: Mulligan Strategy**
 ```
 optimal_curve_specific_london.csv
 ```
