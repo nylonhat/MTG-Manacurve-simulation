@@ -19,6 +19,8 @@ Each specific card should only count towards 1 specific instance in the mana cur
 
 You may choose to assign a lower casting cost card a higher expected mana cost if you think it can generate the same value. This is common for removal spells, whereby a 2 mana card can remove a 3 mana card. In this case you may choose to treat this card as a 3 mana card in the curve. This has the effect of lowering your perceived curve but keeping the value generated the same; useful for control decks.
 
+Essentially free spells like Gitaxian Probe, Street Wraith or Mishra's Bauble can be treated as if they decreased your total deck size. For example a play set of all 3 would make your deck a 48 card deck instead of 60; for simulation purposes.
+
 How many lands? The curves with the highest average mana spent have higher land counts than you might expect. This is because the simulation only maximize up to a certain turn and then after that it doesn’t take into account if you get flooded or run out of cards to play. If every card in your deck has some way to use additional mana (activated abilities, card draw/generation, alternative casting costs, spell lands etc.) then getting flooded is not an issue. The fewer of these types of cards in your deck, the lower your land count may need to be.
 
 **Limitations:**
@@ -32,6 +34,10 @@ Cards that ramp mana and draw additional cards aren’t considered in these simu
 Low cost combat tricks and removal spells that can’t be played as soon as possible for their casting cost are difficult to assign on the curve. It may be useful to think about the amount of mana value they generate, even if you don’t use all your mana when you play them.
 
 In limited formats, you should always consider card quality before considering mana curve. Only take mana curve into consideration when comparing cards of similar quality. (The same can be said for constructed formats)
+
+The London Mulligan strategy from simulation tends to mulligan quite aggressively when optimising for a small number of turns; sacrificing some card advantage to optimise for mana spent.
+
+This simulation doesn't take into account Best of 1 hand smoothing algorithm for Arena.
 
 
 **Compiling code:**
